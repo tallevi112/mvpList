@@ -2,7 +2,6 @@ package paket.talerez.mvpexample.View;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import paket.talerez.mvpexample.Presenter.MainActivityPresenter;
@@ -12,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityPrese
 
     private MainActivityPresenter presenter;
     private TextView myTextView;
-    private ProgressBar progressBar;
+  //  private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
